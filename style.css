@@ -32,6 +32,11 @@ body{
     font-size: 38px;
 }
 
+.left p{
+    color: hsl(303, 10%, 53%);
+    font-weight: 500;
+}
+
 
 .right .rating{
     display: flex;
@@ -50,9 +55,52 @@ body{
 }
 
 #r2{
-    margin-left: 50px;
+    margin-left: 65px;
 }
 
 #r3{
-    margin-left: 100px;
+    margin-left: 130px;
 }
+
+.bottom{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: hsl(300, 43%, 22%);
+    color: white;
+    padding: 28px 22px 28px 22px;
+    border-radius: 10px;
+    border: none;
+    height: min-content;
+}
+
+.card .header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 53%
+}
+
+.header img{
+    border-radius: 50%;
+    height: 38px;
+}
+
+span{
+    color: hsl(333, 80%, 67%);
+}
+
+#c2{
+    margin-top: 20px;
+}
+
+#c3{
+    margin-top: 40px;
+}
+
+
